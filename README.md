@@ -1,4 +1,4 @@
-# <h1 align="center">Machine Learning Note</h1>
+# <h1 align="center">Machine Learning Notes <br>(python kodları yorum satırı şeklinde açıklanmıştır)</h1>
 <br><br>
 # 1-Linear Regression
 ![Çalışma Notu 1](https://github.com/erdemttas/Machine-Learning/assets/100941281/6ecb3086-2251-4310-8b90-5b7dfb343158)
