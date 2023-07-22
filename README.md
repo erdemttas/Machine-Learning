@@ -11,3 +11,20 @@
     Bir bağımlı değişken bir veya daha fazla bağımsız değişkenden oluşan bir yapıdır.
     Bu yapının amacı bağımlı ve bağımsız değişkenler arasındaki  ilişkiyi modellemek için kullanılır.
 ![Ekran görüntüsü 2023-07-18 190433](https://github.com/erdemttas/Machine-Learning/assets/100941281/456f2bd7-135c-4385-bea3-33f20156b89a)
+
+<br><br><br><br>
+
+# 3-Polynomial Linear Regression
+- Polynomial Linear Regression
+    
+    Lineer regresyon, bir bağımlı değişken ile bir veya daha fazla bağımsız değişken arasındaki ilişkiyi ifade eden doğrusal bir model oluşturur. Ancak bazen verilerin doğrusal bir modelle 
+    açıklanamayacak kadar karmaşık bir yapıya sahip olabileceği durumlar vardır. İşte bu noktada polinomal lineer regresyon devreye girer.
+    
+    Polinomal lineer regresyon, doğrusal olmayan veri kümelerini modellemek için polinomları kullanır. Temelde, bir polinom fonksiyonu kullanılarak bağımlı değişkenin polinom derecesine göre 
+    bağımsız değişkenlere en uygun şekilde bağlanmaya çalışılır. Polinom derecesi, modelin karmaşıklığına bağlı olarak seçilir.
+    
+    Örneğin, basit bir polinomal lineer regresyon modeli şu şekilde ifade edilebilir:
+    
+    y = b0 + b1*x + b2*x^2 + ... + bn*x^n
+  ![Ekran görüntüsü 2023-07-21 090141](https://github.com/erdemttas/Machine-Learning/assets/100941281/7f3b67e4-2320-41cb-9b0b-b6d8ce2475f7)
+![img](https://github.com/erdemttas/Machine-Learning/assets/100941281/c35f8045-aa61-4bac-ab52-329911f40433)
