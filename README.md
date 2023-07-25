@@ -1,6 +1,9 @@
 # <h1 align="center">Machine Learning Notes <br>(python kodları yorum satırı şeklinde açıklanmıştır)</h1>
 <br><br>
 # 1-Linear Regression
+- Lineer regresyon, bağımlı bir değişken ile bir veya daha fazla bağımsız değişken arasındaki doğrusal ilişkiyi ifade eden bir denklem oluşturur.
+  özellikle niceliksel verilerde ve özellikler arasında doğrusal bir ilişki olduğu durumlarda etkili bir modelleme tekniğidir.<br> Örneğin, deneyim maaş ilişkisi <br>
+  Temeldeki amaç MSE(HATA KARELERİ ORTALAMASI) bu değeri minimum yapmaktır.
 ![Çalışma Notu 1](https://github.com/erdemttas/Machine-Learning/assets/100941281/6ecb3086-2251-4310-8b90-5b7dfb343158)
 ![Çalışma Notu 2](https://github.com/erdemttas/Machine-Learning/assets/100941281/0cfa5607-483a-4a11-8bb3-914e289f58c9)
 
