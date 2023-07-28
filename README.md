@@ -60,6 +60,9 @@
 ![Ekran görüntüsü 2023-07-06 133309](https://github.com/erdemttas/Machine-Learning/assets/100941281/705b8b96-17b5-43d5-a7b8-b23ef2f02b39)
 
 
+<br><br><br><br>
+
+
 
 
 
