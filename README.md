@@ -61,8 +61,11 @@
 
 
 <br><br><br><br>
+# Evaluation Regression Models
+- Evaluation Regression Models
+    
+    Evaluation modeli, bir sistemin, ürünün, hizmetin veya projenin etkinliğini ve başarısını ölçmek ve değerlendirmek için kullanılan bir yapı veya yöntemdir. Bu tür modeller, performansı niceliksel veya niteliksel olarak değerlendirebilir ve geliştirmeye odaklanabilir.
 
-
-
+![Evaluation Regression Model](https://github.com/erdemttas/Machine-Learning/assets/100941281/c3f08517-7d0e-436e-ba64-bc5cd168a110)
 
 
