@@ -32,7 +32,7 @@
   ![Ekran görüntüsü 2023-07-21 090141](https://github.com/erdemttas/Machine-Learning/assets/100941281/7f3b67e4-2320-41cb-9b0b-b6d8ce2475f7)
 ![img](https://github.com/erdemttas/Machine-Learning/assets/100941281/c35f8045-aa61-4bac-ab52-329911f40433)
 
-<br><br><br><br>
+<br><br><br><br> 
 
 # 4-Decision Tree Regression
 - Decision Tree Regression
