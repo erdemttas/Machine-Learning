@@ -16,8 +16,10 @@
 
 # 2-Multiple Linear Regression
 - Multiple Linear Regression
-    Bir bağımlı değişken bir veya daha fazla bağımsız değişkenden oluşan bir yapıdır.
-    Bu yapının amacı bağımlı ve bağımsız değişkenler arasındaki  ilişkiyi modellemek için kullanılır.
+   Linear regression ile Multiple linear regression aynı şeydir tek fark multiple linear regression birden fazla feature’a sahiptir.
+Bir tane bağımlı değişken ve birden fazla bağımsız değişkenden oluşan modeldir.<br>
+bağımlı değişken = maaş <br>
+bağımsız değişken = deneyim, yaş
 ![Ekran görüntüsü 2023-07-18 190433](https://github.com/erdemttas/Machine-Learning/assets/100941281/456f2bd7-135c-4385-bea3-33f20156b89a)
 
 <br><br><br><br>
@@ -61,7 +63,9 @@
     - Split işlemleri gerçekleştirildikten sonra kök düğümden başlayarak büyüklük küçüklük  durumuna göre leaf(yaprak) bölgelerinin ortalamalarını alıyoruz. bu şeklide bir ağaç yapısı oluşuyor ve en sonunda yeni predict değerimizi bu ağaç yapısına göre buluyoruz. Kısaca leaf bölgesinin ortalama değeri bizim predict ettiğimiz değer oluyor.
 
 ![ekran goruntusu](https://github.com/erdemttas/Machine-Learning/assets/100941281/41bfa1d4-5c8c-4f5d-ace0-24257dbadef8)
-
+<br>
+* örnek olarak: tribün seviyesi 2.5 ile 3.5 arası olan kişiler 75 tl vermiştir.<br>
+3.6 ve sonrasında bir anda fiyat 70 tl olmuştur ve gene belirli bir aralık boyunca fiyat sabit kalacaktır.<br> Kısaca belirli aralıktaki veriler, içerisinde bulundukları leaf’lerin belirli aralık boyunca ortalama değerlerini alırlar.<br>
 ![Ekran görüntüsü 2023-07-06 133309](https://github.com/erdemttas/Machine-Learning/assets/100941281/705b8b96-17b5-43d5-a7b8-b23ef2f02b39)
 
 
