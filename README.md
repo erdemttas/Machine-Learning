@@ -1,10 +1,15 @@
 # <h1 align="center">Machine Learning Notes <br>(python kodları yorum satırı şeklinde açıklanmıştır)</h1>
 <br><br>
 # 1-Linear Regression
-- Lineer regresyon, bağımlı bir değişken ile bir veya daha fazla bağımsız değişken arasındaki doğrusal ilişkiyi ifade eden bir denklem oluşturur.
-  özellikle niceliksel verilerde ve özellikler arasında doğrusal bir ilişki olduğu durumlarda etkili bir modelleme tekniğidir.<br> Örneğin, deneyim maaş ilişkisi <br>
-  Temeldeki amaç MSE(HATA KARELERİ ORTALAMASI) bu değeri minimum yapmaktır.
+* line çizerken ki temel amaç data pointlere en yakın yerden geçmektir.
+ <br>
+ 
 ![Çalışma Notu 1](https://github.com/erdemttas/Machine-Learning/assets/100941281/6ecb3086-2251-4310-8b90-5b7dfb343158)
+<br>
+- Line(kırmızı çizgi) data pointlerin y_head(predict) değerine uzaklığının karesinin alınıp toplanması sonucunda elde edilen değerin sample sayısına bölünmesi ile optimum line çizilir.
+- y - y_head işlemi yapıldığında, kimi yerde (+) kimi yerde (-) değer sonucuna ulaşılır, eğer bu şekilde veriler toplanırsa artılar eksileri götürür ve 0 sonucuna ulaşılır. Bu iyi bir şey ama bizim modelimizde hatalar bulunmakta bu nedenle kare alma işlemi yaparız. En son elde ettiğimiz değer MSE(mean square error) ‘ dır, bu değere göre line çizilir.
+- Temel Amacımız MSE’yi küçük tutmaktır, MSE küçük olursa çizgimiz(line) data pointlerin yakınından geçer.
+
 ![Çalışma Notu 2](https://github.com/erdemttas/Machine-Learning/assets/100941281/0cfa5607-483a-4a11-8bb3-914e289f58c9)
 
 <br><br><br><br>
