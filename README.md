@@ -67,10 +67,29 @@ bağımsız değişken = deneyim, yaş
 * örnek olarak: tribün seviyesi 2.5 ile 3.5 arası olan kişiler 75 tl vermiştir.<br>
 3.6 ve sonrasında bir anda fiyat 70 tl olmuştur ve gene belirli bir aralık boyunca fiyat sabit kalacaktır.<br> Kısaca belirli aralıktaki veriler, içerisinde bulundukları leaf’lerin belirli aralık boyunca ortalama değerlerini alırlar.<br>
 ![Ekran görüntüsü 2023-07-06 133309](https://github.com/erdemttas/Machine-Learning/assets/100941281/705b8b96-17b5-43d5-a7b8-b23ef2f02b39)
+<br><br><br><br>
+
+# 5-Random Forest Regression
+Random forest, ensemble learning üyesidir. ensemble learning aynı anda pek çok algoritmayı kullanarak elde edilen bir modeldir.
+
+Random forest, ağaçların toplamından oluşan bir yapıdır. Decision tree ler belirlenen ölçüde toplanıyor ve çıkan sonuçların ortalaması alınarak random forest değeri elde ediliyor. Bu algoritmalar çok güçlü algoritmalardır çünkü bir çok farklı algoritmayı birleştiriyorlar.
+
+Random forest da genellikle recommendation systemlerde falan kullanılır, örneğin bir film izlendiğinde benzer diğer filmlerin önerilmesi gibi.
+
+Bir datamız var, bu datanın içerisinden n sayıda random sample seçilir ve subdata elde edilir. sonrasında subdatayı tree ler ile eğitiyoruz , eğitim sonunda tree’lerdeki değerler toplayıp ortalamayı alıyoruz ve sonucu elde ediyoruz ve model oluşuyor. sonra tekrar tekrar başa dönüp bu işlemleri tekrarlıyoruz. bu şekilde model güçlenmiş oluyor.
+
+Decision tree deki gibi bir grafik çıktı ve aynı mantıkla çalışıyor. Random forestin decision treeden farkı 1 tane decision tree kullanmak yerine 100 tane decision tree kullanıldı. 
+
+100 tane decision tree 1 tane decision treeden iyidir. yani random forest algoritması decision tree algoritmasından daha iyi sonuçlar verir.
+
+randon_state, her seferinde aynı bölünme oranının geçekleşmesini sağlıyor. Alacağı parametrenin çok da bir önemi yoktur.
+
+![Ekran görüntüsü 2023-07-06 140833](https://github.com/erdemttas/Machine-Learning/assets/100941281/e992fd05-d470-4fe9-ac45-1eda4f5129ad)
+![Ekran görüntüsü 2023-07-06 134447](https://github.com/erdemttas/Machine-Learning/assets/100941281/96b7d9b6-a944-4b5f-9eee-ba754d8b65c9)
 
 
 <br><br><br><br>
-# Evaluation Regression Models
+# 6-Evaluation Regression Models
 - Evaluation Regression Models
     
     Evaluation modeli, bir sistemin, ürünün, hizmetin veya projenin etkinliğini ve başarısını ölçmek ve değerlendirmek için kullanılan bir yapı veya yöntemdir. Bu tür modeller, performansı niceliksel veya niteliksel olarak değerlendirebilir ve geliştirmeye odaklanabilir.
